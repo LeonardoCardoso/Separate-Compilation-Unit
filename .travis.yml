@@ -1,0 +1,7 @@
+language: cpp
+
+compiler:
+- gcc
+
+script:
+- gcc C/*.c -o cOut && g++ C++/*.cpp -o cppOut
