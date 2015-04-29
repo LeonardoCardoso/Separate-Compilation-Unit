@@ -1,0 +1,6 @@
+language: cpp
+
+compiler:
+  - gcc
+
+script:  gcc C/*.c -o a && g++ C++/*.cpp -o a
