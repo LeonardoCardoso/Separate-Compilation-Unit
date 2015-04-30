@@ -4,8 +4,13 @@ language:
 compiler:
   	- gcc
 
+before_install:
+  - sudo pip install cpp-coveralls
+
 script:  
+  	- ./configure --enable-gcov && make && make check
 	- gcc C/*.c -o cOut && g++ C++/*.cpp -o cppOut
 
 after_success:
+  	- coveralls --exclude lib --exclude tests --gcov-options '\-lp'
 	- coveralls -t SF9QAaQlCNszTD5VhqWaqQjRSORUgE1No
