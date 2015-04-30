@@ -1,6 +1,11 @@
-language: cpp
+language: 
+  	- cpp
 
 compiler:
-  - gcc
+  	- gcc
 
-script:  gcc C/*.c -o a && g++ C++/*.cpp -o a
+script:  
+	- gcc C/*.c -o cOut && g++ C++/*.cpp -o cppOut
+
+after_success:
+	- coveralls -t SF9QAaQlCNszTD5VhqWaqQjRSORUgE1No

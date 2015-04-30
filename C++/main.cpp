@@ -13,7 +13,7 @@ int main(){
 	result = fib.numberCalculus(userNumber);
 
 	cout << "\n";
-	if(result == -1) cout << "Invalid Number";
+	if(result == -1) cout << "Invalid number";
 	else if(result < -1) cout << "Result overflows long long int: " << result;
 	else cout << "Result is " << result;
 	cout << "\n\n";
