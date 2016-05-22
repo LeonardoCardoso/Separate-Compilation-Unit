@@ -9,6 +9,9 @@ Single Compilation Unit, also known as Separate Compilation, is a technique of t
 
 For more information about this, please access [Separate Complilation Unit](http://lab.leocardz.com/single-compilation-unit-cc/ "Separate Complilation Unit").
 
+## Contact
+Contact me either by Twitter [@leocardz](https://twitter.com/leocardz) or emailing me to [contact@leocardz.com](mailto:contact@leocardz.com).
+
 
 ## License
 
